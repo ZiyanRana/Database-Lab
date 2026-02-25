@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# MySQL Workbench temp & backup files
+*.bak
+*.tmp
+*.log
+
+# MySQL dumps you don't want tracked (optional)
+*.sql~
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Local config files (if any)
+*.env
+
+# Compiled / cache files
+*.cache
