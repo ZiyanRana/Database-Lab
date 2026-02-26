@@ -1,0 +1,49 @@
+Q1
+SELECT ProductName FROM Products WHERE Price BETWEEN 30 AND 60;
+***
+
+
+Q2
+SELECT EmployeeID, FirstName FROM Employees WHERE Notes LIKE '%French%';
+***
+
+
+Q3
+SELECT FirstName, LastName FROM Employees WHERE Notes LIKE '%psychology%';
+***
+
+
+Q4
+SELECT EmployeeID, FirstName FROM Employees WHERE FirstName LIKE 'S%' AND Title LIKE '%Manager%';
+***
+
+
+Q5
+SELECT OrderID, EmployeeID, ShipperID FROM Orders WHERE EmployeeID IS NOT NULL;
+***
+
+
+Q6
+SELECT SupplierName, SupplierID FROM Suppliers WHERE SupplierID BETWEEN 5 AND 15 AND Country = 'USA';
+***
+
+
+Q7
+SELECT OrderID, OrderDate FROM Orders WHERE OrderDate LIKE '1996%';
+***
+
+
+Q8
+SELECT ProductName, Price FROM Products WHERE ProductName LIKE '%C';
+***
+
+
+Q9
+SELECT ProductName FROM Products WHERE Unit LIKE '%boxes%';
+***
+
+
+Q10
+SELECT CustomerName, City FROM Customers WHERE City <> 'Portland' AND Country = 'USA';
+***
+

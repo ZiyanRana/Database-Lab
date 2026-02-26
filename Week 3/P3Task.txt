@@ -1,0 +1,29 @@
+Q1
+SELECT COUNT(DISTINCT Country) FROM Customers;
+***
+
+
+Q2
+SELECT FirstName, LastName FROM Employees WHERE FirstName LIKE '_%A%';
+***
+
+
+Q3
+SELECT DISTINCT City FROM Suppliers ORDER BY City DESC;
+***
+
+
+Q4
+SELECT CustomerName, City FROM Customers WHERE PostalCode IS NULL AND (Country = 'UK' OR Country = 'USA');
+***
+
+
+Q5
+SELECT CONCAT(FirstName, ' ', LastName) AS FullName FROM Employees WHERE FirstName REGEXP '^[aeiou]';
+***
+
+
+Q6
+SELECT ProductName, Unit FROM Products WHERE Unit LIKE '%kg%' OR Unit LIKE '%g%';
+***
+
