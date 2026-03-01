@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DBL\\Week 2\\DBTestApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|e:\\dbl\\week 2\\dbtestapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|e:\\dbl\\week 2\\dbtestapp\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|e:\\dbl\\week 2\\dbtestapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|e:\\dbl\\week 2\\dbtestapp\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|solutionrelative:course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|e:\\dbl\\week 2\\dbtestapp\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|solutionrelative:enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|e:\\dbl\\week 2\\dbtestapp\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C41C51-B721-4FEA-8EF6-776D975B21C8}|DBTestApp.csproj|solutionrelative:attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "E:\\DBL\\Week 2\\DBTestApp\\Attendance.cs",
+              "RelativeDocumentMoniker": "Attendance.cs",
+              "ToolTip": "E:\\DBL\\Week 2\\DBTestApp\\Attendance.cs",
+              "RelativeToolTip": "Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:59:53.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "E:\\DBL\\Week 2\\DBTestApp\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Enrollment.cs",
+              "ToolTip": "E:\\DBL\\Week 2\\DBTestApp\\Enrollment.cs",
+              "RelativeToolTip": "Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:59:13.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\DBL\\Week 2\\DBTestApp\\Course.cs",
+              "RelativeDocumentMoniker": "Course.cs",
+              "ToolTip": "E:\\DBL\\Week 2\\DBTestApp\\Course.cs",
+              "RelativeToolTip": "Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:57:57.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "E:\\DBL\\Week 2\\DBTestApp\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "DatabaseHelper.cs",
+              "ToolTip": "E:\\DBL\\Week 2\\DBTestApp\\DatabaseHelper.cs",
+              "RelativeToolTip": "DatabaseHelper.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:48:50.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\DBL\\Week 2\\DBTestApp\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "E:\\DBL\\Week 2\\DBTestApp\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:53:07.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DBL\\Week 2\\DBTestApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\DBL\\Week 2\\DBTestApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswHAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:33:20.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
