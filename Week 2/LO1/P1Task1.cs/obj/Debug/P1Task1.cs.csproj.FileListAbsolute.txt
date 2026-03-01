@@ -1,7 +1,0 @@
-E:\DBL\Week 2\P1Task1.cs\bin\Debug\P1Task1.cs.exe.config
-E:\DBL\Week 2\P1Task1.cs\bin\Debug\P1Task1.cs.exe
-E:\DBL\Week 2\P1Task1.cs\bin\Debug\P1Task1.cs.pdb
-E:\DBL\Week 2\P1Task1.cs\obj\Debug\P1Task1.cs.csproj.AssemblyReference.cache
-E:\DBL\Week 2\P1Task1.cs\obj\Debug\P1Task1.cs.csproj.CoreCompileInputs.cache
-E:\DBL\Week 2\P1Task1.cs\obj\Debug\P1Task1.cs.exe
-E:\DBL\Week 2\P1Task1.cs\obj\Debug\P1Task1.cs.pdb
