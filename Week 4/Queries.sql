@@ -100,3 +100,46 @@ JOIN employees e2 ON o2.EmployeeID = e2.EmployeeID
 JOIN products p ON od1.ProductID = p.ProductID
 WHERE e1.EmployeeID < e2.EmployeeID;
 
+SELECT s.SupplierID, s.SupplierName
+FROM suppliers s
+LEFT JOIN products p 
+ON s.SupplierID = p.SupplierID;
+
+SELECT c.CustomerID, c.CustomerName
+FROM customers c
+LEFT JOIN orders o 
+ON c.CustomerID = o.CustomerID
+WHERE o.OrderID IS NULL;
+
+SELECT DISTINCT 
+    c1.CustomerID AS Customer1ID,
+    c1.CustomerName AS Customer1Name,
+    c2.CustomerID AS Customer2ID,
+    c2.CustomerName AS Customer2Name,
+    DATE(o1.OrderDate) AS OrderDate
+FROM orders o1
+JOIN customers c1 
+    ON o1.CustomerID = c1.CustomerID
+JOIN orders o2 
+    ON DATE(o1.OrderDate) = DATE(o2.OrderDate)
+JOIN customers c2 
+    ON o2.CustomerID = c2.CustomerID
+WHERE c1.CustomerID < c2.CustomerID;
+
+SELECT DISTINCT 
+    c.CustomerID,
+    c.CustomerName,
+    e1.EmployeeID AS Employee1ID,
+    CONCAT(e1.FirstName, ' ', e1.LastName) AS Employee1Name,
+    e2.EmployeeID AS Employee2ID,
+    CONCAT(e2.FirstName, ' ', e2.LastName) AS Employee2Name
+FROM orders o1
+JOIN employees e1 
+    ON o1.EmployeeID = e1.EmployeeID
+JOIN orders o2 
+    ON o1.CustomerID = o2.CustomerID
+JOIN employees e2 
+    ON o2.EmployeeID = e2.EmployeeID
+JOIN customers c 
+    ON o1.CustomerID = c.CustomerID
+WHERE e1.EmployeeID < e2.EmployeeID;
