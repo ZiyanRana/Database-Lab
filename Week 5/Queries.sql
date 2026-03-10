@@ -68,3 +68,27 @@ ON e.EmployeeID = o.EmployeeID
 GROUP BY e.EmployeeID, e.LastName
 HAVING COUNT(o.OrderID) > 20;
 
+SELECT p.ProductID, p.ProductName, SUM(od.Quantity) AS Total_Quantity
+FROM products p
+JOIN orderdetails od
+ON p.ProductID = od.ProductID
+GROUP BY p.ProductID, p.ProductName
+HAVING SUM(od.Quantity) > 50;
+
+SELECT YEAR(OrderDate) AS OrderYear,
+COUNT(OrderID) AS Total_Orders
+FROM orders
+GROUP BY YEAR(OrderDate);
+
+SELECT e.EmployeeID, e.FirstName, COUNT(o.OrderID) AS Total_Orders
+FROM employees e
+JOIN orders o
+ON e.EmployeeID = o.EmployeeID
+GROUP BY e.EmployeeID, e.FirstName;
+
+SELECT p.ProductID, p.ProductName
+FROM products p
+LEFT JOIN orderdetails od
+ON p.ProductID = od.ProductID
+WHERE od.ProductID IS NULL;
+
