@@ -22,3 +22,28 @@ JOIN orderdetails od
 ON p.ProductID = od.ProductID
 GROUP BY p.ProductID, p.ProductName;
 
+SELECT s.ShipperID, s.ShipperName, COUNT(o.OrderID) AS Total_Orders
+FROM shippers s
+JOIN orders o
+ON s.ShipperID = o.ShipVia
+GROUP BY s.ShipperID, s.ShipperName;
+
+SELECT c.CustomerID, c.CustomerName, COUNT(o.OrderID) AS Total_Orders
+FROM customers c
+JOIN orders o
+ON c.CustomerID = o.CustomerID
+GROUP BY c.CustomerID, c.CustomerName
+HAVING COUNT(o.OrderID) > 5;
+
+SELECT p.ProductID, p.ProductName, AVG(od.Quantity) AS Avg_Quantity
+FROM products p
+JOIN orderdetails od
+ON p.ProductID = od.ProductID
+GROUP BY p.ProductID, p.ProductName;
+
+SELECT p.ProductID, p.ProductName, SUM(od.Quantity) AS Total_Quantity
+FROM products p
+JOIN orderdetails od
+ON p.ProductID = od.ProductID
+GROUP BY p.ProductID, p.ProductName
+ORDER BY Total_Quantity DESC;
