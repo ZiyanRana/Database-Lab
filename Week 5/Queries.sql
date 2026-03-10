@@ -47,3 +47,24 @@ JOIN orderdetails od
 ON p.ProductID = od.ProductID
 GROUP BY p.ProductID, p.ProductName
 ORDER BY Total_Quantity DESC;
+
+SELECT MONTH(OrderDate) AS OrderMonth,
+COUNT(OrderID) AS Total_Orders
+FROM orders
+GROUP BY MONTH(OrderDate);
+
+SELECT c.CategoryID, c.CategoryName, SUM(od.Quantity) AS Total_SalesQuantity
+FROM categories c
+JOIN products p
+ON c.CategoryID = p.CategoryID
+JOIN orderdetails od
+ON p.ProductID = od.ProductID
+GROUP BY c.CategoryID, c.CategoryName;
+
+SELECT e.EmployeeID, e.LastName, COUNT(o.OrderID) AS Total_Orders
+FROM employees e
+JOIN orders o
+ON e.EmployeeID = o.EmployeeID
+GROUP BY e.EmployeeID, e.LastName
+HAVING COUNT(o.OrderID) > 20;
+
