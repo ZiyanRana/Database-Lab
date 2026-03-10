@@ -92,3 +92,23 @@ LEFT JOIN orderdetails od
 ON p.ProductID = od.ProductID
 WHERE od.ProductID IS NULL;
 
+SELECT c.Country, COUNT(o.OrderID) AS Total_Orders
+FROM customers c
+JOIN orders o
+ON c.CustomerID = o.CustomerID
+GROUP BY c.Country;
+
+SELECT e.EmployeeID, e.LastName,
+COUNT(DISTINCT od.ProductID) AS Unique_Products_Count
+FROM employees e
+JOIN orders o
+ON e.EmployeeID = o.EmployeeID
+JOIN orderdetails od
+ON o.OrderID = od.OrderID
+GROUP BY e.EmployeeID, e.LastName;
+
+SELECT s.ShipperID, s.ShipperName, COUNT(o.OrderID) AS Total_Orders
+FROM shippers s
+JOIN orders o
+ON s.ShipperID = o.ShipVia
+GROUP BY s.ShipperID, s.ShipperName;
