@@ -114,6 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmployeeReportData.cs" />
+    <Compile Include="OrderData.cs" />
     <Compile Include="ProductData.cs" />
     <Compile Include="EmployeeData.cs" />
     <Compile Include="Form1.cs">
@@ -138,8 +139,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\EmployeeData.datasource" />
+    <None Include="Properties\DataSources\EmployeeReportData.datasource" />
+    <None Include="Properties\DataSources\OrderData.datasource" />
     <None Include="Properties\DataSources\ProductData.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
